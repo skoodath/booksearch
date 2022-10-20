@@ -1,0 +1,10 @@
+PUT http://localhost:3001/api/books/63010aff0715ba0c753a2027 HTTP/1.1
+content-type: application/json
+
+{
+  "title": "oliver twist",
+  "author": "charles dickens",
+  "year": 1839,
+  "category": "fiction",
+  "price": 8.99
+}

@@ -1,0 +1,10 @@
+POST http://localhost:3001/api/books/ HTTP/1.1
+content-type: application/json
+
+{
+  "title": "The Pickwick Papers",
+  "author": "Charles Dickens",
+  "year": 1937,
+  "category": "drama",
+  "price": 11.99
+}
